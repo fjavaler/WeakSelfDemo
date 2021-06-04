@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC3F99192669AC7B00BAB398 /* WeakSelfDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F99182669AC7B00BAB398 /* WeakSelfDemoApp.swift */; };
-		AC3F991B2669AC7B00BAB398 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F991A2669AC7B00BAB398 /* ContentView.swift */; };
+		AC3F991B2669AC7B00BAB398 /* WeakSelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F991A2669AC7B00BAB398 /* WeakSelfView.swift */; };
 		AC3F991D2669AC7C00BAB398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3F991C2669AC7C00BAB398 /* Assets.xcassets */; };
 		AC3F99202669AC7C00BAB398 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3F991F2669AC7C00BAB398 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		AC3F99152669AC7B00BAB398 /* WeakSelfDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeakSelfDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3F99182669AC7B00BAB398 /* WeakSelfDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfDemoApp.swift; sourceTree = "<group>"; };
-		AC3F991A2669AC7B00BAB398 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC3F991A2669AC7B00BAB398 /* WeakSelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfView.swift; sourceTree = "<group>"; };
 		AC3F991C2669AC7C00BAB398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3F991F2669AC7C00BAB398 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC3F99212669AC7C00BAB398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				AC3F99182669AC7B00BAB398 /* WeakSelfDemoApp.swift */,
-				AC3F991A2669AC7B00BAB398 /* ContentView.swift */,
+				AC3F991A2669AC7B00BAB398 /* WeakSelfView.swift */,
 				AC3F991C2669AC7C00BAB398 /* Assets.xcassets */,
 				AC3F99212669AC7C00BAB398 /* Info.plist */,
 				AC3F991E2669AC7C00BAB398 /* Preview Content */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC3F991B2669AC7B00BAB398 /* ContentView.swift in Sources */,
+				AC3F991B2669AC7B00BAB398 /* WeakSelfView.swift in Sources */,
 				AC3F99192669AC7B00BAB398 /* WeakSelfDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
